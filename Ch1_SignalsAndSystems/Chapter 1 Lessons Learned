@@ -1,0 +1,27 @@
+Lessons Learned from Chapter 1
+
+My designs in going over this book and doing everything in Python are geared toward two goals.
+1. I want to understand signals and systems better.
+2. I want to understand how to analyze signals and systems with computational tools.
+What my end goal would probably be, would be to learn how to implement signal processing in programmable hardware, like an fpga.
+Later I will want to be able to take high level things that I am learning here and implement them in hardware.
+I chose to do these exercises in python, because I would have to struggle a little more to get things working. That leads to mistakes,
+which lead to better learning. The only downside, is that I don't have anyone to check my work.
+
+matplotlib
+numpy
+sympy
+
+I didn't really like having to use different libraries for different things, but I think that is really unavoidable anyway, but it may seem 
+more seamless in MATLAB. The confusion comes when the different libraries have different conventions. Like in numpy to get the imaginary
+number i, you use 1j, and in sympy it is just I. Using different libraries also puts pressure on the developer to keep conding conventions 
+and practices in line. I didn't do that. I imported numpy as np, but used from sympy import *, which is badish. 
+
+I learned how to make jupyter notebooks
+I learned how to put LaTex into jupyter notebooks and in matplotlib and sympy figures.
+I learned how to use numpy and matplotlib for discrete time stuff and sympy for continuous time stuff.
+I learned how to install git for windows and anaconda for python development (still dont do virtual environments though)
+I learned how to put a dynamically updating graph into a jupyter notebook
+I learned how to better analyze complex equations. 
+I particularly liked doing dynamic vector quiver plotting to see what is going on at phase discontinuities.
+I learned how to analyze the properties of signals and systems using examples and counter-examples.
